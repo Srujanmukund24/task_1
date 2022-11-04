@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+       
+    }
+    body{
+        background: url(dell-7Bmk9mAXP2I-unsplash.jpg);
+        background-size: cover;
+    }
+    .container{
+        background-color:#f9d6a7;
+        opacity: 0.9;
+        border-radius: 40px;
+        display: grid;
+        width:50vw;
+        height: 90vh;
+        align-items: center;
+        margin-top:5rem;
+        margin-left: 25vw;
+        margin-right: 25vw;
+
+    }
+    .formin{
+        padding: 1em;
+        text-align: center;
+    }
+    input{
+        border-radius: 20px;
+    }
+    .inp{
+      width:20rem;
+    }
+
+    .heading{
+        text-align: center;
+    }
+    .btn{
+        border-radius: 40px;
+        width:20rem;
+        cursor: pointer;
+    }
+    .btn:hover {
+    background-color: black;
+    color:rgb(205, 216, 158) ;
+}
+
+
+</style>
+
+<body>
+    <section class="container">
+        <form action="backend.php">
+           <h1 class="heading">Task 1</h1>
+           <div class="formin" ><input  class ="inp" type="text" name="xyz" placeholder="Enter your Name here"></div>
+           <div class="formin"><input class ="inp" type="text" name="xyz" placeholder="Enter your Roll no here"></div>
+           <div class="formin">Date of birth:<input  type="date" name="xyz" ></div>
+           <div class="formin">Time of birth:<input  type="time" name="xyz" ></div>
+           <div class="formin"><input class ="inp" type="text" name="xyz" placeholder="Enter your City Name"></div>
+             
+           <div class="formin">
+
+            <select class="forminput" name="abc" id="abc">
+                <option value="0">Choose your Intrest</option>
+                <option value="1">Competitive Programing </option>
+                <option value="2">Web-Devlopement</option>
+                <option value="3">App-Devlopement </option>
+                <option value="4">Data-science </option>
+                <option value="5">Artificial Inteligence </option>
+                <option value="6">Machine Learning </option>
+                <option value="7">Other Than Mention </option>
+
+            </select>
+        </div>
+        <div class="formin">
+            <label for="n">Progarming Language</label><br>
+            C<input class="check"type="checkbox" name="mychoice">C++<input class="check" type="checkbox" name="mychoice">Python<input  class="check"type="checkbox" name="mychoice">Java<input  class="check"type="checkbox" name="mychoice">Other<input  class="check"type="checkbox" name="mychoice">
+        </div>
+        <div class="formin">
+            Male<input type="radio" name="mygender">Female<input type="radio" name="mygender">Other<input type="radio"
+                name="mygender">
+        </div>
+
+        <div class="formin">
+            <button class="btn">Submit Now </button>
+        </div>
+
+        </form>
+
+
+
+    </section>
+
+    <!-- Forms in HTML 
+     <h2>Forms and Input in HTML </h2>
+     <form action="backend.php">
+       
+
+        <lable for="n">Name
+            <input type="text">
+           </lable>
+           <br>
+           <lable for="n">Roll NO:
+            <input type="number">
+           </lable>
+           <br>
+           <lable for="n">DOB:   
+            <input type="date">
+           </lable>
+           <br>
+           <lable for="n">Time of Birth:
+            <input type="time">
+           </lable>
+           <br>
+         
+         <div><br>
+             Roll no. : <input type="number">
+         </div><br>
+         <div>
+             Email ID: <input type="email" name="myEmail">
+         </div><br>
+         <lable for="tick"></lable>
+         <div>
+             Are you 12th pass? <input type="checkbox" id="tick">
+         </div><br>
+         <div>
+             Male<input type="radio" name="mygender">Female<input type="radio" name="mygender">Other<input type="radio"
+                 name="mygender">
+         </div><br>
+         <div>
+             Write your Hobbies here:<br><textarea name="Hy hobbies" cols="30" rows="10"></textarea>
+         </div>
+         <div>
+             <input type="submit" value="Submit Now">
+             <input type="reset" value="Reset Now">
+         </div>
+         <div>
+             <label for="car">Car</label>
+             <select name="My car" id="car">
+                 <option value="ind">Indica</option>
+                 <option value="swf">Swift</option>
+                 <option value="none" selected>None</option>
+ 
+             </select>
+         </div>
+ 
+     </form> -->
+</body>
+
+</html>
